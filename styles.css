@@ -1,72 +1,86 @@
-body{
-   background-color: #454d6b; 
-   overflow: hidden;
-   width: 100vw;
-height: 100vh;
-margin: 0px;
+body {
+  background-color: #454d6b;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+.content-title {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  padding-bottom: 2rem;
+}
 
+.content {
+  gap: 2rem;
+  width: 20%;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #353b50;
 }
-.container{
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    flex-direction: row ; 
-    align-items: center;
-    display: flex;
+.title {
+  font-weight: 800;
+  font-size: 3rem;
+  color: #e9e9e9;
+  border-bottom: 2px solid #e9e9e9;
+  padding-bottom: 2px;
 }
 
-.content{
-    height:  80%;
-    width: 40%;
-   
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-gap: 4rem;
-background-color:#353b50 ;
+.content-input {
+  gap: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
-.title{
-    font-weight: 800;
-    font-size: 3rem;
-    color: #e9e9e9;
-border-bottom:2px solid #e9e9e9; 
-padding-bottom: 3px;
- ;
+.input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #e9e9e9;
+  padding-bottom: 3px;
+  padding: 1rem;
 }
-.content-title{
-    display: flex;
-    flex-direction: column;
- align-items: center;
- 
- justify-content: center;
- 
-gap: 16px;
-
+.nomes {
+  color: #e9e9e9;
 }
-.input{
-    background: transparent;
-    border: none;
-    border-bottom: 4px solid #e9e9e9;
-padding-bottom: 3px;
-gap: 10remS;
-width: 100%;
-padding: 1rem;
-
+.button {
+  color: #fff;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #a13854;
+  border: none;
+  width: 100%;
 }
-.nomes{
-    color: #e9e9e9;
+.content-button {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.button{
-    color: #fff;
-    padding: 1.5rem 14rem;
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: 500;
-    background-color:#a13854 ;
-    border: none;
-    width: 100%;
-    
-    
-  
+.password {
+  background: transparent;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 300;
+  color: #fff;
+}
+.input-a {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
